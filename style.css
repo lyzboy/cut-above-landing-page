@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.header {
+  padding: 16px;
+}
+
+.header ul {
+  display: flex;
+  gap: 16px;
+}
+
+.header li {
+  list-style-type: none;
+}
+.header a {
+  text-decoration: none;
+}
+
+.hero,
+.header {
+  background-color: #1f2937;
+}
+
+.hero {
+  display: flex;
+  padding: 64px 64px;
+  gap: 48px;
+}
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.hero-image img {
+  object-fit: cover;
+  max-width: 100%;
+  flex: 1 1 auto;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p,
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header li {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.image-container img {
+  object-fit: cover;
+  max-width: 100%;
+  flex: 1 1 auto;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  flex: 1 1 200px;
+}
